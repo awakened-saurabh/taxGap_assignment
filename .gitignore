@@ -1,0 +1,15 @@
+# Build output
+target/
+bin/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+
+# IntelliJ / VS Code / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store

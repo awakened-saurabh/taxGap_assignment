@@ -1,0 +1,14 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: taxgap-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: taxgap
+    ports:
+      - "3306:3306"
+    volumes:
+      - taxgap-data:/var/lib/mysql
+
+volumes:
+  taxgap-data:

@@ -1,0 +1,75 @@
+[
+  {
+    "transactionId": "T1001",
+    "date": "2026-10-01",
+    "customerId": "C001",
+    "amount": 1000.00,
+    "taxRate": 0.18,
+    "reportedTax": 180.00,
+    "transactionType": "SALE"
+  },
+  {
+    "transactionId": "T1002",
+    "date": "2026-10-02",
+    "customerId": "C001",
+    "amount": 60000.00,
+    "taxRate": 0.05,
+    "reportedTax": 3000.00,
+    "transactionType": "SALE"
+  },
+  {
+    "transactionId": "T1003",
+    "date": "2026-10-03",
+    "customerId": "C002",
+    "amount": 1500000.00,
+    "taxRate": 0.18,
+    "reportedTax": 200000.00,
+    "transactionType": "SALE"
+  },
+  {
+    "transactionId": "T1004",
+    "date": "2026-10-04",
+    "customerId": "C001",
+    "amount": 500.00,
+    "taxRate": 0.18,
+    "reportedTax": 90.00,
+    "transactionType": "REFUND",
+    "originalTransactionId": "T1001"
+  },
+  {
+    "transactionId": "T1005",
+    "date": "2026-10-05",
+    "customerId": "C001",
+    "amount": 2000.00,
+    "taxRate": 0.18,
+    "reportedTax": 360.00,
+    "transactionType": "REFUND",
+    "originalTransactionId": "T1001"
+  },
+  {
+    "transactionId": "T1006",
+    "date": "2026-13-45",
+    "customerId": "C003",
+    "amount": 700.00,
+    "taxRate": 0.18,
+    "reportedTax": 126.00,
+    "transactionType": "SALE"
+  },
+  {
+    "transactionId": "T1007",
+    "date": "2026-10-07",
+    "customerId": "C003",
+    "amount": 2000.00,
+    "taxRate": 0.18,
+    "transactionType": "SALE"
+  },
+  {
+    "transactionId": "T1008",
+    "date": "2026-10-08",
+    "customerId": "C003",
+    "amount": -5.00,
+    "taxRate": 0.18,
+    "reportedTax": 0.00,
+    "transactionType": "EXPENSE"
+  }
+]
